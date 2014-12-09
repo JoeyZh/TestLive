@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/channel_item_height"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/channel_num_text_style"
+            android:layout_width="@dimen/channel_num_width"
+            android:layout_height="@dimen/channel_num_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/list_item_margin_left"
+            android:layout_marginRight="@dimen/list_item_margin_right"
+            android:background="@android:color/white"
+            android:text="01" />
+
+        <TextView
+            style="@style/channel_name_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="东方卫视" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/channel_num_width"
+            android:layout_height="@dimen/channel_num_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/list_item_margin_left"
+            android:layout_marginRight="@dimen/list_item_margin_right"
+            android:gravity="center_vertical" />
+
+        <TextView
+            style="@style/channel_epg_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="12:00 少林寺传奇藏经阁" />
+    </LinearLayout>
+
+</LinearLayout>

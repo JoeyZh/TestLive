@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="content_layout" type="id"></item>
+     <item name="left_layout" type="id"></item>
+     <item name="right_layout" type="id"></item>
+</resources>

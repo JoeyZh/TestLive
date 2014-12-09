@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ListView
+        android:id="@+id/top_menu_list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="3" >
+    </ListView>
+
+    <com.taixin.boxassistant.live.ListViewCompat
+        android:id="@+id/channel_list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:divider="#dddbdb"
+        android:dividerHeight="1.0px"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:layout_weight="3" />
+
+    <ListView
+        android:id="@+id/epg_list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+    </ListView>
+
+</LinearLayout>

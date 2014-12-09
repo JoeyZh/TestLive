@@ -1,0 +1,10 @@
+bin/
+gen/
+read/
+proguard/
+*.swp
+*.bak
+*.class
+*~
+*.apk
+.svn/
