@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TX遙控器</string>
+    <string name="tx_box">泰信盒子</string>
+    <string name="action_settings">設置</string>
+    <!-- 工作模式 -->
+    <string name="mode_select">選擇工作模式</string>
+    <string name="livetv">直      播</string>
+    <string name="remote">遠端控制</string>
+    <!-- 直播 -->
+    <string name="tx_live">泰信直播</string>
+    <string name="hd">高清</string>
+    <string name="cctv">央視</string>
+    <string name="satellite">衛視</string>
+    <string name="all">全部</string>
+    <string name="device">機頂盒</string>
+    <string name="near_device">附近設備</string>
+    <string name="nat">本地</string>
+    <string name="fav">喜爱</string>
+    <string name="parse_group_failed">獲取數據失敗，請返回到主頁或者數字電視操作！</string>
+
+    <!-- 設備列表 -->
+    <string name="select_dev">選擇周邊設備</string>
+    <string name="change_pwd">修改密碼</string>
+    <string name="remote_control">遠端控制</string>
+    <string name="version">版本信息</string>
+    <string name="help">幫助</string>
+    <string name="play_current">仍然播放</string>
+    <string name="stop_current">停止推送</string>
+    <string name="today">今天</string>
+    <string name="reconnection">重新連接</string>
+    <string name="finddevice">選擇設備</string>
+    <string name="find_device_message">列表中列出的是機頂盒的IP地址，請點擊以下列表IP地址建立連接 \n IP地址查看方法：請找到機頂盒的設置選項，在【網絡設置】中可以看到機頂盒的IP地址。</string>
+    <string name="ok">確&#160;&#160;&#160;&#160;定</string>
+    <string name="cancel">取消</string>
+    <string name="pvr_manager">錄製管理</string>
+    <string name="ordered">預約錄製</string>
+    <string name="recorded">已經錄製</string>
+    <string name="user_regist">用戶註冊</string>
+    <string name="user_login">用戶登錄</string>
+    <string name="user_regist_ok">註冊成功</string>
+    <string name="user_regist_fail">註冊失敗</string>
+    <string name="username_exist">用戶名已存在</string>
+    <string name="no_response_serve">服務器無響應，註冊失敗</string>
+    <string name="check_internet">請檢查網絡</string>
+    <string name="net_change">網絡狀態發生變化，請檢查網絡</string>
+    <string name="connection_close">網絡連接失敗，請點擊重新連接，或減產網絡連接稍後重連</string>
+    <string name="exit">退#160;&#160;&#160;&#160;出</string>
+    <string name="recording_failed">錄製失敗</string>
+    <string name="no_epg">沒有預告信息</string>
+
+    <!-- pvr控制 -->
+    <string name="delete">刪除</string>
+    <string name="stop_recording">停止錄製</string>
+    <string name="stop_playback">停止回看</string>
+    <string name="delete_notification">請再次核對刪除文件信息以免誤刪！</string>
+    <string name="file_name">文件名稱：</string>
+    <string name="recorded_date">錄製日期：</string>
+    <string name="file_length">文件大小：</string>
+     <string name="ordered_date">預約時間</string>
+    <string name="search_hint">輸入電視臺或者節目名稱</string>
+
+    <!-- 設置 -->
+    <string name="checkout">檢查更新</string>
+    <string name="search_devices">重新搜索</string>
+    <string name="connection">繼續連接</string>
+    <string name="switch_devices">切換設備</string>
+    <string name="shared">分享</string>
+    <string name="share_to_friend">分享給好友</string>
+
+    <!-- epg佈局部份 -->
+    <string name="epg_monday">週一</string>
+    <string name="epg_tuesday">週二</string>
+    <string name="epg_wednesday">週三</string>
+    <string name="epg_thursday">週四</string>
+    <string name="epg_friday">週五</string>
+    <string name="epg_saturday">週末</string>
+    <string name="epg_sunday">星期天 </string>
+    <string name="epg_today">今天</string>
+
+    <!-- 遠端控制的按鈕 -->
+    <string name="con_failed">連接失敗</string>
+    <string name="con_succ">連接成功</string>
+    <string name="con_closed">連接中斷，請檢查網絡連接</string>
+    <string name="search">查找</string>
+    <string name="regist">註冊</string>
+    <string name="Come_join">馬上體驗</string>
+    <string name="login">登錄遠程</string>
+    <string name="login_success">登錄成功</string>
+    <string name="search_boxno">從後臺查找機頂盒</string>
+    <string name="search_error">搜索失敗</string>
+    <string name="stb_inavalible">機頂盒未上線线</string>
+    <string name="connected">已連接</string>
+    <string name="no_connection">未連接</string>
+
+    <!-- 对话框 -->
+    <string name="play_warning">檢測到您的直播信號來自天線，暫時不支持手機收看直播！</string>
+    <string name="on_playing">已經有設備播放直播了，您可以選擇繼續播放當前設備正在觀看的節目，或者停止當前正在播放的節目</string>
+    <string name="on_recording">您的機頂盒正在錄製節目，請您稍後再點擊播放吧！</string>
+    <string name="on_playbacking">您的機頂盒在回訪錄像，請您稍後再點擊播放吧！</string>
+    <string name="not_in_dtv">暫時不能執行換台操作，請您返回【泰信直播】再進行換台操作吧！</string>
+    <string name="dialog_is_showing">機頂盒現在正在錄製節目暫時不能播放，請您等一小會兒吧！</string>
+    <string name="play_error">機頂盒暫時不能提供直播服務</string>
+    <string name="warning_title">溫馨提示</string>
+
+    <string-array name="auto_connection_failed">
+        <item>未能主動連接到您的機頂盒，請檢查機頂盒是否已打開，</item>
+        <item>檢查舍否已經連接到了網絡；如果您已經更換路由器，您需要重新搜索!</item>
+        <item>如果您不在家裡，請登錄遠程進行操作</item>
+    </string-array>
+
+    <string name="xmpp_boxno_unable">獲取不到您的機頂盒號，請先于您的機頂盒配對，否則五大使用遙控器</string>
+    <string name="wifi_unaviable">無網絡不可用，請您點擊確定鍵打開網絡設置，或登錄遠程</string>
+    <string name="search_boxno_failed">檢測到您的盒子是非法盒子，請聯繫客服人員為您入庫操作！</string>
+    <string name="net_unaviable">檢測到您未接入互聯網，請檢查網絡連接</string>
+    <string name="friend_unavialable">檢測到您的盒子未接入網絡，暫時不能進行錄製操作！</string>
+    <string name="exit_notification">您真的要退出么？</string>
+    <string name="loading_epg">加載節目預告...</string>
+    <string name="parsing_info">正在解析數據...</string>
+    <string name="loading">正在加載</string>
+    <string name="downloading_info">正在下載數據</string>
+    <string name="mediacontroller_play_pause">播放/暫停</string>
+    <string name="prog_list">節目列表</string>
+    <string name="neterror">非常抱歉，播放停止了，請您退出后重新播放吧！</string>
+    <string name="neterror1">非常抱歉，網絡狀態不佳！</string>
+    <string name="warntitle">出錯啦</string>
+    <string name="back">返回</string>
+
+    <!-- 滑動菜單欄 -->
+    <string-array name="menu_list">
+        <item>切換設備</item>
+        <item> 遙控器</item>
+        <item>錄像管理</item>
+        <item>分享</item>
+        <item>幫助</item>
+        <item>版本信息</item>
+    </string-array>
+
+    <string name="coming_soon">盡請期待</string>
+    <string name="show_new_text">新增按鍵遙控，再也不用擔心找不到遙控器了！</string>
+
+</resources>

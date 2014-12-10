@@ -1,6 +1,6 @@
-package com.taixin.boxassistant.live;
+package com.taixin.boxassistant.live.widget;
 
-import com.ryg.slideview.R;
+import com.taixin.test.R;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -64,10 +64,6 @@ public class SlideView extends LinearLayout {
                         .getDisplayMetrics()));
     }
 
-    public void setButtonText(CharSequence text) {
-        ((TextView)findViewById(R.id.delete)).setText(text);
-    }
-
     public void setContentView(View view) {
         mViewContent.addView(view);
     }
@@ -87,7 +83,7 @@ public class SlideView extends LinearLayout {
         int x = (int) event.getX();
         int y = (int) event.getY();
         int scrollX = getScrollX();
-        Log.d(TAG, "x=" + x + "  y=" + y);
+//        Log.d(TAG, "x=" + x + "  y=" + y);
 
         switch (event.getAction()) {
         case MotionEvent.ACTION_DOWN: {

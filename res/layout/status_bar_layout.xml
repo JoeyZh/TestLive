@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="@dimen/status_layout_height"
+    android:layout_gravity="right"
+    android:background="#ffff00ff"
+    android:orientation="horizontal" >
+
+    <DigitalClock
+        style="@style/epg_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"        
+        android:layout_marginLeft="@dimen/list_item_margin_left"
+        android:layout_marginRight="@dimen/list_item_margin_right" />
+
+</RelativeLayout>

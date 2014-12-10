@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <dimen name="list_item_marge_left">8dp</dimen>
+    <dimen name="list_item_margin_right">8dp</dimen>
+    <dimen name="list_item_margin">3dp</dimen>
+    <dimen name="channel_num_width">26.67dp</dimen>
+    <dimen name="channel_num_height">30.00dp</dimen>
+    <dimen name="channel_item_height">53.33dp</dimen>
+    <dimen name="top_menu_item_tag_width">48.00dp</dimen>
+    <dimen name="top_menu_item_tag_height">48.00dp</dimen>
+    <dimen name="epg_item_height">48.00dp</dimen>
+    <dimen name="top_menu_list_width">100dp</dimen>
+    <dimen name="channel_list_width">120dp</dimen>
+    <dimen name="epg_list_width">180dp</dimen>
+    <dimen name="slideview_holder_width">48.00dp</dimen>
+    <dimen name="slideview_holder_margin_left">-90dp</dimen>
+
+    <!-- 文字大小 -->
+    <dimen name="epg_name_text_size">10sp</dimen>
+    <dimen name="top_menu_text_size">16.67sp</dimen>
+    <dimen name="btn_text_size">12.00sp</dimen>
+    <dimen name="channel_name_text_size">10sp</dimen>
+    <dimen name="channel_epg_text_size">8sp</dimen>
+    <dimen name="weekdayTxtSize">14dp</dimen>
+    <dimen name="DeviceTextSize">12sp</dimen>
+    <dimen name="weekdaybtnWidth">60.00dp</dimen>
+
+    <!-- tvRemote -->
+    <dimen name="tvremote_margin_top">45dip</dimen>
+    <dimen name="tvremote_margin_right">15dip</dimen>
+    <dimen name="tvremote_margin_left">15dip</dimen>
+    <dimen name="tvremote_margin_bottom">45dip</dimen>
+    <dimen name="tvremote_key_width">45dp</dimen>
+    <dimen name="tvremote_key_height">45dp</dimen>
+    <dimen name="tvremote_max_key_width">126dp</dimen>
+    <dimen name="tvremote_key_voiceup_width">36dp</dimen>
+    <dimen name="tvremote_key_voicemute_width">72dp</dimen>
+
+</resources>

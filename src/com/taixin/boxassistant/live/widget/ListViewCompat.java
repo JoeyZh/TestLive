@@ -1,6 +1,4 @@
-package com.taixin.boxassistant.live;
-
-import com.taixin.boxassistant.live.MainActivity.MessageItem;
+package com.taixin.boxassistant.live.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -40,7 +38,7 @@ public class ListViewCompat extends ListView {
             }
         }
     }
-
+    
     @Override
     public boolean onTouchEvent(MotionEvent event) {
     	int x = (int) event.getX();
@@ -50,8 +48,9 @@ public class ListViewCompat extends ListView {
         case MotionEvent.ACTION_DOWN: {
             Log.e(TAG, "postion=" + position);
             if (position != INVALID_POSITION) {
-                MessageItem data = (MessageItem) getItemAtPosition(position);
-                mFocusedItemView = data.slideView;
+//                MessageItem data = (MessageItem) getItemAtPosition(position);
+//                mFocusedItemView = data.slideView;
+            	mFocusedItemView =(SlideView) getChildAt(position-getFirstVisiblePosition());
                 Log.e(TAG, "FocusedItemView=" + mFocusedItemView);
             }
         }

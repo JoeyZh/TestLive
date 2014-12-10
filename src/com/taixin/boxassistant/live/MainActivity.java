@@ -3,8 +3,10 @@ package com.taixin.boxassistant.live;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ryg.slideview.R;
-import com.taixin.boxassistant.live.SlideView.OnSlideListener;
+import com.taixin.boxassistant.live.widget.ListViewCompat;
+import com.taixin.boxassistant.live.widget.SlideView;
+import com.taixin.boxassistant.live.widget.SlideView.OnSlideListener;
+import com.taixin.test.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

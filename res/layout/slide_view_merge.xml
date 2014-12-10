@@ -7,35 +7,39 @@
         android:id="@+id/left_holder"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:clickable="true"
         android:layout_marginLeft="@dimen/slideview_holder_margin_left"
-        android:background="@drawable/holder_bg">
+        android:background="@drawable/holder_bg"
+        android:orientation="horizontal" >
 
-       <TextView
-            android:id="@+id/move_inside"
-            android:layout_width="@dimen/slideview_holder_width"
-            android:layout_height="fill_parent"
-            android:gravity="center"
-            android:layout_gravity="center_vertical"
-            android:textColor="@android:color/white"
-            android:background="#ff00ffff"
-            android:text="移动1" />
         <TextView
-            android:id="@+id/move_outside"
+            android:id="@+id/drag_view"
             android:layout_width="@dimen/slideview_holder_width"
             android:layout_height="fill_parent"
-            android:gravity="center"
             android:layout_gravity="center_vertical"
-            android:textColor="@android:color/white"
             android:background="#ff00ffff"
-            android:text="移动" />
+            android:clickable="true"
+            android:gravity="center"
+            android:text="拖动"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/move_view"
+            android:layout_width="@dimen/slideview_holder_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#ff00ffff"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="移动"
+            android:textColor="@android:color/white" />
     </LinearLayout>
-    
+
     <LinearLayout
         android:id="@+id/view_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="@dimen/channel_item_height"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
         android:orientation="horizontal" >
     </LinearLayout>
 
@@ -43,27 +47,29 @@
         android:id="@+id/right_holder"
         android:layout_width="120dp"
         android:layout_height="match_parent"
-        android:clickable="true"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal" >
+
         <TextView
-            android:id="@+id/delete"
+            android:id="@+id/fav_view"
             android:layout_width="@dimen/slideview_holder_width"
             android:layout_height="fill_parent"
-            android:gravity="center"
             android:layout_gravity="center_vertical"
-            android:textColor="@android:color/white"
             android:background="#ff00ffff"
-            android:text="喜爱" />
+            android:clickable="true"
+            android:gravity="center"
+            android:text="喜爱"
+            android:textColor="@android:color/white" />
+
         <TextView
-            android:id="@+id/move_group"
+            android:id="@+id/epg_view"
             android:layout_width="@dimen/slideview_holder_width"
             android:layout_height="fill_parent"
-            android:gravity="center"
-            android:background="#ff0000ff"
             android:layout_gravity="center_vertical"
-            android:textColor="@android:color/white"
-            android:text="epg" />
+            android:background="#ff0000ff"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="epg"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
 </merge>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TX遥控器</string>
+    <string name="tx_box">泰信盒子</string>
+    <string name="action_settings">设置</string>
+    <!-- 工作模式 -->
+    <string name="mode_select">选择工作模式</string>
+    <string name="livetv">直      播</string>
+    <string name="remote">远端控制</string>
+
+    <!-- 直播 -->
+    <string name="hd">高清</string>
+    <string name="cctv">央视</string>
+    <string name="satellite">卫视</string>
+    <string name="all">全部</string>
+    <string name="device">机顶盒</string>
+    <string name="near_device">附近设备</string>
+    <string name="nat">本地</string>
+    <string name="fav">喜爱</string>
+    <string name="parse_group_failed">获取数据失败，请返回到主页或者数字电视操作！</string>
+   
+    <!-- 设备列表 -->
+    <string name="select_dev">选择周边设备</string>
+    <string name="tx_live">泰信直播</string>
+    <string name="change_pwd">修改密码</string>
+    <string name="remote_control">远端控制</string>
+    <string name="version">版本信息</string>
+    <string name="help">帮助</string>
+    <string name="play_current">仍然播放</string>
+    <string name="stop_current">停止推送</string>
+    <string name="today">今天</string>
+    <string name="reconnection">重新连接</string>
+    <string name="finddevice">选择设备</string>
+    <string name="find_device_message">列表中列出的是机顶盒的Ip地址,在机顶盒设置的【网络设置】中可以查看，请点击IP建立连接</string>
+    <string name="ok">确&#160;&#160;&#160;&#160;定</string>
+    <string name="cancel">取消</string>
+    <string name="pvr_manager">录制管理</string>
+    <string name="ordered">预约录制</string>
+    <string name="recorded">已经录制</string>
+    <string name="user_regist">用户注册</string>
+    <string name="user_login">用户登录</string>
+    <string name="username_less_than"> 用户名不能小于6个字符！</string>
+    <string name="password_less_than">密码不能小于6个字符！</string>
+    <string name="user_regist_ok">注册成功</string>
+    <string name="user_regist_fail">注册失败</string>
+    <string name="username_exist">用户名已存在</string>
+    <string name="no_response_serve">服务器无响应，注册失败</string>
+    <string name="check_internet">请检查网络</string>
+    <string name="net_change">网络状态发生变化，请检查网络</string>
+    <string name="connection_close">网络连接失败，请亲点击重新连接，或检查网络连接稍后重连</string>
+    <string name="exit">退&#160;&#160;&#160;&#160;出</string>
+
+    <!-- pvr控制 -->
+    <string name="delete">删除</string>
+    <string name="stop_recording">停止录制</string>
+    <string name="stop_playback">停止回看</string>
+    <string name="delete_notification">亲，请再次核对删除文件信息以免误删</string>
+    <string name="file_name">文件名称:</string>
+    <string name="recorded_date">录制日期:</string>
+    <string name="file_length">文件大小:</string>
+    <string name="search_hint">输入电视台或者节目名称</string>
+    <string name="ordered_date">预约时间:</string>
+
+    <!-- 设置 -->
+    <string name="checkout">检查更新</string>
+    <string name="search_devices">重新搜索</string>
+    <string name="connection">继续连接</string>
+    <string name="switch_devices">切换设备</string>
+    <string name="shared">分享</string>
+    <string name="share_to_friend">分享给好友</string>
+
+    <!-- epg布局部分 -->
+    <string name="epg_monday">周一</string>
+    <string name="epg_tuesday">周二</string>
+    <string name="epg_wednesday">周三</string>
+    <string name="epg_thursday">周四</string>
+    <string name="epg_friday">周五</string>
+    <string name="epg_saturday">周六</string>
+    <string name="epg_sunday">周日</string>
+    <string name="epg_today">今天</string>
+
+    <!-- 远端控制的按钮 -->
+    <string name="con_failed">连接失败</string>
+    <string name="con_succ">连接成功</string>
+    <string name="con_closed">连接中断，请检查网络连接</string>
+    <string name="search">查找</string>
+    <string name="regist">注册</string>
+    <string name="Come_join">马上体验</string>
+    <string name="login">登录远程</string>
+    <string name="experience_now">马  上 体 验</string>
+    <string name="login_success">登录成功</string>
+    <string name="search_boxno">从后台查找机顶盒</string>
+    <string name="search_error">搜索失败</string>
+    <string name="stb_inavalible">机顶盒 未上线</string>
+    <string name="connected">已连接</string>
+    <string name="no_connection">未连接</string>
+
+    <!-- 对话框 -->
+    <string name="play_warning">检测到您的直播信号来自天线，暂时不支持手机端收看直播</string>
+    <string name="on_playing">已经有设备正在播放直播了，您可以选择继续播放当前设备正在观看的节目，或者停止当前正在播放的节目</string>
+    <string name="on_recording">您的机顶盒正在录制节目，请亲稍后点击播放吧！</string>
+    <string name="on_playbacking">您的机顶盒正在回看节目，请亲稍后点击播放吧！</string>
+    <string name="not_in_dtv">暂时不能执行换台操作，请亲返回【泰信直播】再进行换台操作吧！</string>
+    <string name="dialog_is_showing">机顶盒正在处理录制暂时不能播放该节目，请亲等一小会儿</string>
+    <string name="play_error">当前电视台暂时不能播放，请再试试其他台</string>
+    <string name="warning_title">温馨提示</string>
+
+    <string-array name="auto_connection_failed">
+        <item>亲，未能主动连接到您的机顶盒，请检查机顶盒是否已打开,</item>
+        <item>检查是否已经连接到网络；如果您已经更换路由器，请重新搜索吧！</item>
+        <item>如果您不在家里，请登录远程进行操作</item>
+    </string-array>
+
+    <string name="xmpp_boxno_unable">亲，获取不到您的机顶盒号，请先与您的机顶盒配对，否则无法使用遥控器</string>
+    <string name="wifi_unaviable">亲，无线网络不可用，请点击确定打开网络设置，或直接登录远程</string>
+    <string name="search_boxno_failed">亲，检测到您的盒子没有进行入库操作，请联系客服人员为您入库</string>
+    <string name="net_unaviable">亲，检查到您未连接互联网，请检查网络设置</string>
+    <string name="friend_unavalible">亲，检查到您的盒子未接入互联网，暂时不能进行录制操作！</string>
+    <string name="exit_notification">您真的要退出应用么?</string>
+    <string name="loading_epg">加载节目预告...</string>
+    <string name="parsing_info">正在解析数据...</string>
+    <string name="loading">正在加载</string>
+    <string name="downloading_info">正在下载数据</string>
+    <string name="mediacontroller_play_pause">播放/暂停</string>
+    <string name="prog_list">节目列表</string>
+    <string name="neterror">非常抱歉，播放停止了，请亲退出重新播放吧！</string>
+    <string name="neterror1">非常抱歉，网络状态不佳！</string>
+    <string name="warntitle">出错啦</string>
+    <string name="back">返回</string>
+    <string name="recording_failed">录制失败</string>
+    <string name="no_epg">没有预告信息</string>
+
+    <!-- 滑动菜单栏 -->
+    <string-array name="menu_list">
+        <item>切换设备</item>
+        <item> 遥控器</item>
+        <item>录像管理</item>
+        <item>分享</item>
+        <item>帮助</item>
+        <item>版本信息</item>
+    </string-array>
+
+    <string name="coming_soon">敬请期待</string>
+    <string name="show_new_text">新增按键遥控，再也不用担心找不到遥控器了！</string>
+
+</resources>
