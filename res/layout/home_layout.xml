@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.taixin.txlive.slidemenu.SlideMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.taixin.txlive"
+    android:id="@+id/slide_menu_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.taixin.boxassistant.home.view.HomeContent
+        xmlns:slidemenu="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/home_content"
+        slidemenu:layout_role="content"
+        android:background="@android:color/black" >
+    </com.taixin.boxassistant.home.view.HomeContent>
+
+    <include layout="@layout/home_menu_layout"/>
+
+</com.taixin.txlive.slidemenu.SlideMenu>

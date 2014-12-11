@@ -38,5 +38,12 @@
         <item name="android:singleLine">true</item>
     </style>
     
+     <style name="description_text_style">
+        <item name="android:textSize">@dimen/description_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
 
 </resources>

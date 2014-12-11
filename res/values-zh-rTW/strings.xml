@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TX遙控器</string>
+    <string name="app_name">盒子助手</string>
     <string name="tx_box">泰信盒子</string>
     <string name="action_settings">設置</string>
     <!-- 工作模式 -->
@@ -58,7 +58,7 @@
     <string name="file_name">文件名稱：</string>
     <string name="recorded_date">錄製日期：</string>
     <string name="file_length">文件大小：</string>
-     <string name="ordered_date">預約時間</string>
+    <string name="ordered_date">預約時間</string>
     <string name="search_hint">輸入電視臺或者節目名稱</string>
 
     <!-- 設置 -->
@@ -129,15 +129,13 @@
 
     <!-- 滑動菜單欄 -->
     <string-array name="menu_list">
-        <item>切換設備</item>
-        <item> 遙控器</item>
-        <item>錄像管理</item>
         <item>分享</item>
         <item>幫助</item>
-        <item>版本信息</item>
+        <item>信息反饋</item>
+        <item>檢查更新</item>
     </string-array>
 
     <string name="coming_soon">盡請期待</string>
     <string name="show_new_text">新增按鍵遙控，再也不用擔心找不到遙控器了！</string>
-
+	<string name="company">山東泰信電子股份有限公司</string>
 </resources>

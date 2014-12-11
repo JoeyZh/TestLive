@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TX遥控器</string>
+    <string name="app_name">盒子助手</string>
     <string name="tx_box">泰信盒子</string>
     <string name="action_settings">设置</string>
     <!-- 工作模式 -->
@@ -133,15 +133,13 @@
 
     <!-- 滑动菜单栏 -->
     <string-array name="menu_list">
-        <item>切换设备</item>
-        <item> 遥控器</item>
-        <item>录像管理</item>
         <item>分享</item>
         <item>帮助</item>
-        <item>版本信息</item>
+        <item>信息反馈</item>
+        <item>检查更新</item>
     </string-array>
 
     <string name="coming_soon">敬请期待</string>
     <string name="show_new_text">新增按键遥控，再也不用担心找不到遥控器了！</string>
-
+	<string name="company">山东泰信电子股份有限公司</string>
 </resources>

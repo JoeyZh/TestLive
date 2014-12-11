@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/home_content_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/status_layout_height"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/home_content_device_name"
+            style="@style/top_menu_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:text="T2 已连接" />
+
+        <ImageButton
+            android:id="@+id/home_content_menu_btn"
+            android:layout_width="@dimen/status_layout_height"
+            android:layout_height="@dimen/status_layout_height"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/recorded_normal" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/home_content_center_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/home_content_match_layout"
+        android:layout_below="@+id/home_content_title_layout"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/home_content_gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+            android:verticalSpacing="@dimen/home_content_item_padding"
+            android:horizontalSpacing="@dimen/home_content_item_padding"
+            android:scrollbars="none" >
+        </GridView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/home_content_match_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/status_layout_height"
+        android:layout_alignParentBottom="true"
+        >
+         <TextView
+            android:id="@+id/home_content_match_long_press_btn"
+            style="@style/top_menu_text_style"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/home_content_match_btn"
+            android:text="按住说话"
+            android:background="#ff00ffff"
+             />
+
+        <ImageButton
+            android:id="@+id/home_content_match_btn"
+            android:layout_width="@dimen/status_layout_height"
+            android:layout_height="@dimen/status_layout_height"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/recorded_normal" />
+    </RelativeLayout>
+
+</RelativeLayout>

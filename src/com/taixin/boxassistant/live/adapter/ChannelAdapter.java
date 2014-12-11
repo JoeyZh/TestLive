@@ -23,7 +23,6 @@ import org.json.JSONObject;
 import com.taixin.android.utils.Constants;
 import com.taixin.android.utils.Log;
 import com.taixin.android.utils.SaveInstance;
-import com.taixin.boxassistant.live.MainActivity;
 import com.taixin.boxassistant.live.widget.SlideView;
 import com.taixin.test.R;
 

@@ -19,11 +19,15 @@
     <dimen name="slideview_holder_width">60dp</dimen>
     <dimen name="slideview_holder_margin_left">-120dp</dimen>
     <dimen name="status_layout_height">50dp</dimen>
+    <dimen name="home_content_item_padding">5dp</dimen>
+    <dimen name="home_content_item_margin_bottom">10dp</dimen>
     
     <dimen name="channel_name_text_size">18sp</dimen>
     <dimen name="channel_epg_text_size">13sp</dimen>
     <dimen name="epg_name_text_size">16sp</dimen>
     <dimen name="top_menu_text_size">20sp</dimen>
+    <dimen name="description_text_size">13sp</dimen>
+    
     
     
 </resources>

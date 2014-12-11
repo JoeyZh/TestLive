@@ -1,8 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">testHorizaltal</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Box Assistant</string>
+    <string name="tx_box">Taixin Box</string>
     <string name="action_settings">Settings</string>
+    <!-- 工作模式 -->
+    <string name="mode_select">Mode Selection</string>
+    <string name="livetv">LiveTV</string>
+    <string name="remote">Remote Mode</string>
+    <!-- 设备列表 -->
+    <string name="select_dev">Devices Selection</string>
+
+    <!-- 直播 -->
+    <string name="hd">HD</string>
+    <string name="cctv">CCTV</string>
+    <string name="addRosterTitle">Add Roster</string>
+    <string name="all">ALL</string>
+    <string name="nat">Native</string>
+    <string name="fav">Fav</string>
+    <string name="device">device</string>
+    <string name="satellite">Star TV</string>
+    <string name="near_device">Nearbydevices</string>
+    <string name="play_current">play current</string>
+    <string name="stop_current">stop_current</string>
+    <string name="today">Today</string>
+    <string name="parse_group_failed">Can not receive group information of program,please go back to dtv application and request again!</string>
+
+    <!-- 对话框 -->
+    <string name="play_warning">No Supportion of live playing when using air wire</string>
+    <string name="ok">OK</string>
+    <string name="reconnection">Connection Again</string>
+    <string name="finddevice">Find Devices</string>
+    <string name="find_device_message">We can find out our Ip Address in the follow list,Please click the Ip item for getting connection</string>
+    <string name="cancel">Cancel</string>
+    <string name="request">Requstion</string>
+    <string name="username_less_than">The user name cannot less than 6!</string>
+    <string name="password_less_than">The password cannot less than 6!</string>
+    <string name="downloadProgress">downloadProgress</string>
+    <string name="on_playing">Other Devices is playing live,you can play the same,or stop the current,playing another one </string>
+    <string name="on_recording">Your STB is recording program,you can request later</string>
+    <string name="on_playbacking">Your STB is playbacking one recorded file,you can request later</string>
+    <string name="not_in_dtv">We found your stb is in other application not in Dtv,please go back to dtv application and change channel</string>
+    <string name="dialog_is_showing">Program cannot play on your devices now,please wait for a moment</string>
+    <string name="play_error">STB do not support live streaming</string>
+    <string name="warning_title">Notification</string>
+
+    <string-array name="auto_connection_failed">
+        <item>Unable to connect with your STB,Please Checkout STB was turned on!</item>
+        <item>Other,Checkout that if you turn on the wifi swift,and click the Searching button </item>
+        <item>If you are out Home,you can click Login button to login your remote account</item>
+    </string-array>
+
+    <string name="xmpp_boxno_unable">Unable to find out STB No. in our device，Please Match STB first or you cannot using the remote account to control your STB</string>
+    <string name="net_unaviable">Wifi is not avalible，Please checkout Network setting</string>
+    <string name="search_boxno_failed">Unable to find out your STB from the server,Please call our workmates to add your STB in server</string>
+    <string name="exit_notification">Will you exit the application?</string>
+    <string name="friend_unavialable">You STB is not aviable</string>
+    <string name="loading_epg">Loading Event of Program...</string>
+    <string name="parsing_info">Parsing information now...</string>
+    <string name="no_epg">No EPG</string>
+    <string name="loading">Loading</string>
+    <string name="downloading_info">DownLoading information now</string>
+    <string name="mediacontroller_play_pause">Play/Pause</string>
+    <string name="prog_list">Program List</string>
+    <string name="neterror">Sorry,some problems occur,Please click button for exiting</string>
+    <string name="neterror1">Sorry,some problems occur,Please click button for exiting</string>
+    <string name="warntitle">Error Occur</string>
+    <string name="back">Return</string>
+    <string name="exit">Exit</string>
+    <string name="recording_failed">Recording failed</string>
+    <string name="downloadFailure">downloadFailure</string>
+    <string name="downloadSuccess">downloadSuccess</string>
+    <string name="notif_down_file">notif_down_file</string>
+    <string name="refresh">refresh</string>
+    <string name="change_pwd">Change password</string>
+    <string name="remote_control">Remote contorl</string>
+    <string name="version">Version</string>
+    <string name="help">Help</string>
+    <string name="net_change">Net environments has changed</string>
+    <string name="connection_close">connection is closed</string>
+
+    <!-- pvr控制 -->
+    <string name="delete">Delete</string>
+    <string name="stop_recording">Stop recording</string>
+    <string name="stop_playback">Stop playback</string>
+    <string name="delete_notification">Please checkout the file information instead of mistake happened</string>
+    <string name="file_name">File Name:</string>
+    <string name="recorded_date">Recorded Date:</string>
+    <string name="file_length">File Length:</string>
+    <string name="ordered_date">Ordered Date:</string>
+    <string name="search_hint">input program or EPG</string>
+    <!-- epg布局部分 -->
+    <string name="tx_live">TX LiveTV</string>
+    <string name="wait_litter">Please wait for a moment!</string>
+    <string name="epg_monday">Mon</string>
+    <string name="epg_tuesday">Tues</string>
+    <string name="epg_wednesday">Wed</string>
+    <string name="epg_thursday">Thur</string>
+    <string name="epg_friday">Fri</string>
+    <string name="remote_transcribe">Transcribe</string>
+    <!-- 区域码设置 -->
+    <string name="zone_remind">Please set your Area Code</string>
+    <string name="country">China</string>
+    <string name="province">Province ：</string>
+    <string name="city">City</string>
+    <string name="zone">Zone</string>
+    <string name="epg_saturday">Satu</string>
+    <string name="epg_sunday">Sun</string>
+    <string name="epg_today">Today</string>
+    <string name="experience_now">Experience&#160;&#160;Now</string>
+    <!-- 远端设备按钮 -->
+    <string name="con_failed">Connection Failed</string>
+    <string name="con_succ">Connection Successful</string>
+    <string name="con_closed">Connection closed,please check wifi server </string>
+    <string name="regist">Regist</string>
+    <string name="user_regist">User Regist</string>
+    <string name="login">Login</string>
+    <string name="Come_join">Immedateky experience</string>
+    <string name="search">Searching</string>
+    <string name="pvr_manager">Record Manager</string>
+    <string name="ordered">Ordered List</string>
+    <string name="recorded">Recorded List</string>
+    <string name="regist_notice">The user name or password shoule be 6&#8212;16 aletter or number!</string>
+    <string name="password_notice">The password should be 6&#8212;16 aletter or number </string>
+    <string name="pwd_forsure">Password for sure</string>
+    <string name="user_login">User Login</string>
+    <string name="user_regist_ok">Regist OK!</string>
+    <string name="user_regist_fail">Regist Faild!</string>
+    <string name="username_exist">The user name repetition!</string>
+    <string name="no_response_serve">No response from the serve!</string>
+    <string name="check_internet">Please check the Internet!</string>
+    <string name="login_success">login successfully</string>
+    <string name="search_boxno">Searching for STB from Server</string>
+    <string name="search_error">Searching failed</string>
+    <string name="stb_inavalible">STB is inavalible</string>
+    <string name="connected">Connected with</string>
+    <string name="no_connection">No Connection</string>
+    <!-- 设置 -->
+    <string name="checkout">Checkout</string>
+    <string name="search_devices">Searching Devices</string>
+    <string name="connection">Connection Again</string>
+    <string name="switch_devices">Switch Devices</string>
+    <string name="shared">Shared</string>
+    <string name="share_to_friend">Sharing to friend</string>
+    <!-- slidemenu -->
+    <string-array name="menu_list">
+        <item>Shared</item>
+        <item>Help</item>
+        <item>Information Feedback</item>
+        <item>Checkout</item>
+    </string-array>
+
+    <string name="coming_soon">Coming soon</string>
+    <string name="show_new_text">Mobile phone remote controll!</string>
+    <string name="company">Taixin Electronics</string>
 
 </resources>

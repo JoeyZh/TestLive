@@ -97,7 +97,7 @@ public class PagerLinearLayout extends LinearLayout implements OnSlideListener,
 		int[] to1 = { R.id.top_menu_tag, R.id.top_menu_text };
 		for (int i = 0; i < 7; i++) {
 			HashMap<String, Object> map = new HashMap<String, Object>();
-			map.put(from1[0], R.drawable.pvr_btn);
+			map.put(from1[0], R.drawable.recorded_normal);
 			map.put(from1[1], "我的频道");
 			mTopMenuMap.add(map);
 		}
@@ -106,7 +106,7 @@ public class PagerLinearLayout extends LinearLayout implements OnSlideListener,
 		for(int i=0;i<20;i++)
 		{
 			HashMap<String, Object> map = new HashMap<String, Object>();
-			map.put(from1[0], R.drawable.pvr_btn);
+			map.put(from1[0], R.drawable.recorded_normal);
 			map.put(from1[1], "19:00  电视剧:战神 10：30-11：45 -------------");
 			mEpgMap.add(map);
 		}
