@@ -30,7 +30,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name="com.taixin.boxassistant.live.LivePlayerMain"
+            android:name="com.taixin.boxassistant.live.activity.LivePlayerMain"
             android:screenOrientation="landscape"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>

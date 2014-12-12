@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.taixin.android.utils.Log;
-import com.taixin.boxassistant.live.LivePlayerMain;
+import com.taixin.boxassistant.live.activity.LivePlayerMain;
 import com.taixin.test.R;
 
 import android.content.Context;

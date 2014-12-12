@@ -10,8 +10,10 @@ import com.taixin.boxassistant.home.view.HomeContent.OnStatusListener;
 import com.taixin.test.R;
 import com.taixin.txlive.slidemenu.SlideMenu;
 import com.taixin.txlive.slidemenu.SlideMenu.OnSlideStateChangeListener;
+import com.taixin.txlive.widget.ShareLayout;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -132,7 +134,16 @@ public class MainActivity extends Activity implements OnSlideStateChangeListener
 	private final int HELP = 1;
 	private final int INFO_FEEDBACK = 2;
 	private final int CHECKOUT = 3;
-	
+	/**
+	 * 提醒对话框，用于menulist的布局中
+	 */
+	private AlertDialog mDialog;
+
+	/**
+	 * This list item click listener implements very simple view switching by
+	 * changing the primary content text. The drawer is closed when a selection
+	 * is made.
+	 */
 	private class MenuListItemClickListener implements
 	ListView.OnItemClickListener {
 
@@ -140,8 +151,16 @@ public class MainActivity extends Activity implements OnSlideStateChangeListener
 		public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 				long arg3) {
 			// TODO Auto-generated method stub
+			if (mDialog != null && mDialog.isShowing())
+				mDialog.cancel();
 			switch (arg2) {
 			case SHARED:
+				ShareLayout shareLayout = new ShareLayout(MainActivity.this);
+				shareLayout.initShareList();
+				shareLayout.show();
+				mDialog = new AlertDialog.Builder(MainActivity.this).setView(
+						shareLayout).create();
+				mDialog.show();
 				break;
 			case HELP:
 				break;

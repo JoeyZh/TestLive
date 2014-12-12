@@ -28,6 +28,18 @@
     <dimen name="top_menu_text_size">20sp</dimen>
     <dimen name="description_text_size">13sp</dimen>
     
+    <!-- 滑动菜单 -->
+    <dimen name="menulistWidth">200dp</dimen>
     
+     <!-- tvRemote -->
+    <dimen name="tvremote_margin_top">20dip</dimen>
+    <dimen name="tvremote_margin_right">15dip</dimen>
+    <dimen name="tvremote_margin_left">15dip</dimen>
+    <dimen name="tvremote_margin_bottom">45dip</dimen>
+    <dimen name="tvremote_key_width">45dp</dimen>
+    <dimen name="tvremote_key_height">45dp</dimen>
+    <dimen name="tvremote_max_key_width">126dp</dimen>
+    <dimen name="tvremote_key_voiceup_width">36dp</dimen>
+    <dimen name="tvremote_key_voicemute_width">54dp</dimen>
     
 </resources>

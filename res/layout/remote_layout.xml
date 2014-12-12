@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+remote controller layout 
+contains controller buttons and a touch layout 
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/tvremote_margin_bottom"
+    android:layout_marginLeft="@dimen/tvremote_margin_left"
+    android:layout_marginRight="@dimen/tvremote_margin_right"
+    android:layout_marginTop="@dimen/tvremote_margin_top"
+    android:background="#0000" >
+
+    <RelativeLayout
+        android:id="@+id/tvbtn_top_layout_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/remote_img_btn_menu"
+            style="@style/remote_btn_style"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/key_menu_selector" />
+
+        <RelativeLayout
+            android:id="@+id/tvbtn_top_layout_root"
+            android:layout_width="@dimen/tvremote_max_key_width"
+            android:layout_height="@dimen/tvremote_key_height"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/key_voice_bg" >
+
+            <ImageButton
+                android:id="@+id/remote_img_btn_voicedown"
+                android:layout_width="@dimen/tvremote_key_voiceup_width"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/key_voicedown_selector" />
+
+            <ImageButton
+                android:id="@+id/remote_img_btn_mute"
+                android:layout_width="@dimen/tvremote_key_voicemute_width"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:background="#0000"
+                android:src="@drawable/key_voice_selector" />
+
+            <ImageButton
+                android:id="@+id/remote_img_btn_voiceup"
+                android:layout_width="@dimen/tvremote_key_voiceup_width"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/key_voiceup_selector" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/remote_img_btn_home"
+            style="@style/remote_btn_style"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/key_home_selector" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/touch_layout_root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/tvbtn_bottom_layout_root"
+        android:layout_below="@+id/tvbtn_top_layout_root" >
+
+        <com.taixin.txlive.tvremote.widget.TvRemoteTouchView
+            android:id="@+id/remote_touch_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tvremote_guide" 
+            android:layout_gravity="center"
+            />
+       <!-- com.taixin.txlive.tvremote.widget.TvRemoteTouch -->
+
+        <TextView
+            android:id="@+id/remote_show_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:visibility="gone">
+        </TextView>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/tvbtn_bottom_layout_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/remote_img_btn_shutdown"
+            style="@style/remote_btn_style"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/key_shut_selector" />
+
+        <ImageButton
+            android:id="@+id/remote_img_btn_back"
+            android:layout_width="@dimen/tvremote_max_key_width"
+            android:layout_height="@dimen/tvremote_key_height"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/key_back_selector" />
+
+        <ImageButton
+            android:id="@+id/remote_img_btn_pvr"
+            style="@style/remote_btn_style"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/key_pvr_selector" />
+    </RelativeLayout>
+
+</RelativeLayout>

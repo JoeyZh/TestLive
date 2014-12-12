@@ -1,4 +1,4 @@
-package com.taixin.boxassistant.live;
+package com.taixin.boxassistant.live.activity;
 
 import com.taixin.android.activity.RootActivity;
 import com.taixin.test.R;
